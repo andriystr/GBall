@@ -2,7 +2,7 @@ var b = new Arc({
 	x : (50 * 2) + 25,
 	y : (50 * 1) + 25,
 	r : 15,
-	color : "#333"
+	color : "#ee3"
 });
 
 var ctr = {
