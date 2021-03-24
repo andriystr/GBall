@@ -13,3 +13,9 @@ function resize(){
 	cam.zoom = (canv.width > canv.height ? canv.height : canv.width) / 400;
 	if(typeof resizefunc == "function")resizefunc();
 }
+
+//====== Debug =======
+
+window.addEventListener('error', function(e){
+	alert(`${e.message} at ${e.filename} ${e.lineno}:${e.colno}`)
+})
